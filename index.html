@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <title>API Project</title>
+</head>
+<body>
+
+    <!-- NavBar -->
+
+  <nav class="navbar navbar-light" id="navbar" style="background: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+    <a class="navbar-brand" href="#" style="color:white">
+      <img src="https://svgsilh.com/svg/310088-cddc39.svg" width="40" height="35" class="d-inline-block align-top" alt="">
+      Team Index
+    </a>
+  </nav>
+
+  <!-- JumboTron -->
+
+  <div class="jumbotron jumbotron-fluid" id="jumboStyle">
+    <div class="container">
+      <h1 class="display-4" id="textOne">Team Index</h1>
+      <p class="lead"></p>
+    </div>
+  </div>
+
+  <!--Search Form-->
+
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" id="searchTeam" placeholder="Team Name" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" required>Search</button>
+  </form>
+
+  <!--Results-->
+
+<div class = "container2">
+  <div class="list">
+    <h1 class="results" id="textTwo animated pulse" style="font-size: 40px; text-align: center">Search For Your Team</h1>
+    <br>
+    <p class="results" style="text-align: center">Enter your favorite teams' names and discover the history behind the franchise!</p>
+  </div>
+</div>
+
+<!--Footer-->
+
+<div class="footer">
+    <footer>    
+        <p> | © 2019 TheSportsDB | Created and Published by: Alex Scribner | API Project |
+            <img src="https://svgsilh.com/svg/310088-cddc39.svg" width="35" height="35" class="d-inline-block align-top" alt="">
+        </p>
+    </footer>
+</div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="apiProject.js"></script>
+</body>
+</html>
